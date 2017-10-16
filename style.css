@@ -1,0 +1,41 @@
+body {
+  background-color: #8cdbd9;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12pt;
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+}
+
+img {
+  width: 30%;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-top: -100px;
+}
+
+h2 {
+  font-size: 12pt;
+  margin-top: -20px;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+p {
+  font-style: italic;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.more {
+  t
+}
