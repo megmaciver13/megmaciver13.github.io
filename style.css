@@ -1,41 +1,91 @@
 body {
-  background-color: #8cdbd9;
-  font-family: "Roboto", Arial, sans-serif;
+  background-color: #edefec;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12pt;
   color: white;
   text-align: center;
-  margin-top: -50px;
 }
 
-img {
-  width: 30%;
+/*top*/
+
+nav {
+  text-align: left;
+  font-size: 26pt;
 }
 
 h1 {
-  font-size: 24pt;
-  margin-top: -100px;
+  font-family: 'Codystar', cursive;
+  font-size: 60pt;
 }
 
 h2 {
-  font-size: 12pt;
+  font-size: 28pt;
   margin-top: -20px;
 }
 
 h3 {
   font-size: 14pt;
+  margin-top: -20px;
 }
 
-p {
-  font-style: italic;
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cce0ce;
+  height: 50%;
+  width: 100%;
 }
 
-.info {
+.header-text {
+  margin-top: 5%;
+}
+
+#wave-emoji {
+  margin: -50% 0;
+  font-size: 20pt;
+}
+
+/*bottom*/
+
+.bottom {
+  position: relative;
+  margin-top: 35%;
+  color: black;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
 
-.more {
-  t
+.who .where .what {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.more-info {
+  color: black;
+}
+
+#dc-skyline {
+  width: 40%;
+  margin-bottom: -10%;
+}
+
+#headshot {
+  border-radius: 50%;
+  width: 100px;
+  border: 3px solid white;
+}
+
+/* mobile */
+@media all and (max-width: 500px) {
+  body {
+    background-color: #cce0ce;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
 }
