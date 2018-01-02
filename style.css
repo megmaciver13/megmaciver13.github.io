@@ -1,6 +1,9 @@
 body {
   background-color: #edefec;
-  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
   font-size: 12pt;
   color: white;
   text-align: center;
@@ -11,21 +14,22 @@ body {
 nav {
   text-align: left;
   font-size: 26pt;
+  position: fixed;
 }
 
 h1 {
-  font-family: 'Codystar', cursive;
   font-size: 60pt;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 28pt;
-  margin-top: -20px;
+  font-size: 24pt;
+  margin-top: -40px;
 }
 
 h3 {
   font-size: 14pt;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .top {
@@ -38,19 +42,15 @@ h3 {
 }
 
 .header-text {
-  margin-top: 5%;
-}
-
-#wave-emoji {
-  margin: -50% 0;
-  font-size: 20pt;
+  margin-top: 10%;
 }
 
 /*bottom*/
 
 .bottom {
-  position: relative;
+  position: absolute;
   margin-top: 35%;
+  text-align: center;
   color: black;
   display: flex;
   flex-direction: row;
@@ -64,19 +64,31 @@ h3 {
   justify-content: center;
 }
 
-.more-info {
-  color: black;
-}
-
-#dc-skyline {
+.dc-skyline {
   width: 40%;
   margin-bottom: -10%;
 }
 
-#headshot {
+.headshot {
   border-radius: 50%;
   width: 100px;
   border: 3px solid white;
+}
+
+.more-info {
+  color: black;
+}
+
+.more-who {
+  display: none;
+}
+
+.more-where {
+  display: none;
+}
+
+.more-what {
+  display: none;
 }
 
 /* mobile */
