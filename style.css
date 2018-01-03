@@ -7,6 +7,7 @@ body {
   font-size: 12pt;
   color: white;
   text-align: center;
+  margin: 0;
 }
 
 /*top*/
@@ -19,7 +20,6 @@ nav {
 
 h1 {
   font-size: 60pt;
-  font-weight: bold;
 }
 
 h2 {
@@ -27,31 +27,60 @@ h2 {
   margin-top: -40px;
 }
 
-h3 {
-  font-size: 14pt;
-  margin-top: 0px;
-}
-
 .top {
-  position: absolute;
+  font-family: 'Roboto', sans-serif;
   top: 0;
   left: 0;
   background-color: #cce0ce;
-  height: 50%;
+
   width: 100%;
+  flex: 1;
 }
 
 .header-text {
   margin-top: 10%;
 }
 
-/*bottom*/
+.logo {
+  width: 10%;
+  margin-top: -60px;
+}
 
+/*middle*/
+h3 {
+  font-size: 14pt;
+  margin-top: 0px;
+}
+
+.middle {
+  padding: 2% 20% 0 20%;
+  color: #55595d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 125px;
+  border: 3px solid white;
+}
+
+.summary {
+
+}
+
+/*bottom*/
 .bottom {
-  position: absolute;
-  margin-top: 35%;
-  text-align: center;
-  color: black;
+  padding-top: 30px;
+  color: #55595d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -67,12 +96,6 @@ h3 {
 .dc-skyline {
   width: 40%;
   margin-bottom: -10%;
-}
-
-.headshot {
-  border-radius: 50%;
-  width: 100px;
-  border: 3px solid white;
 }
 
 .more-info {
