@@ -58,8 +58,9 @@ h3 {
 
 .middle {
   padding: 3% 20% 3% 20%;
-  background-color: #9b9ea1;
-  /*767b7f;*/
+  background-color: #EDEFEC;
+  /*9b9ea1;*/
+  color: #55595d;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -104,7 +105,11 @@ h3 {
 }
 
 .more-info {
-  color: white;
+  display: none;
+  margin-top: 5%;
+  background-color: #EDEFEC;
+  color: #55595d;
+  /*color: white;*/
   /*background-color: #9b9ea1;*/
   padding: 0% 15% 5% 15%;
 }
@@ -137,7 +142,7 @@ h3 {
 
 /* footer */
 footer {
-  background-color: #9b9ea1;
+  /*background-color: #9b9ea1;*/
   padding: 10px;
 }
 

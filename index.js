@@ -2,6 +2,7 @@ function portfolio () {
   var whoButton = document.querySelector('.who-more')
   var whereButton = document.querySelector('.where-more')
   var whatButton = document.querySelector('.what-more')
+  var moreInfo = document.querySelector('.more-info')
   var moreWho = document.querySelector('.more-who')
   var moreWhere = document.querySelector('.more-where')
   var moreWhat = document.querySelector('.more-what')
@@ -9,8 +10,10 @@ function portfolio () {
   var showWho = () => {
     if (moreWho.style.display === 'none') {
       moreWho.style.display = 'inline'
+      moreInfo.style.display = 'inline'
     } else {
       moreWho.style.display = 'none'
+      moreInfo.style.display = 'none'
     }
     moreWhere.style.display = 'none'
     moreWhat.style.display = 'none'
@@ -19,8 +22,10 @@ function portfolio () {
   var showWhere = () => {
     if (moreWhere.style.display === 'none') {
       moreWhere.style.display = 'inline'
+      moreInfo.style.display = 'inline'
     } else {
       moreWhere.style.display = 'none'
+      moreInfo.style.display = 'none'
     }
     moreWho.style.display = 'none'
     moreWhat.style.display = 'none'
@@ -29,8 +34,10 @@ function portfolio () {
   var showWhat = () => {
     if (moreWhat.style.display === 'none') {
       moreWhat.style.display = 'inline'
+      moreInfo.style.display = 'inline'
     } else {
       moreWhat.style.display = 'none'
+      moreInfo.style.display = 'none'
     }
     moreWho.style.display = 'none'
     moreWhere.style.display = 'none'
