@@ -1,35 +1,44 @@
 function portfolio () {
-  var whoMore = document.querySelector('.who')
-  var whereMore = document.querySelector('.where')
-  var whatMore = document.querySelector('.what')
+  var whoButton = document.querySelector('.who-more')
+  var whereButton = document.querySelector('.where-more')
+  var whatButton = document.querySelector('.what-more')
   var moreWho = document.querySelector('.more-who')
   var moreWhere = document.querySelector('.more-where')
   var moreWhat = document.querySelector('.more-what')
 
   var showWho = () => {
-    console.log('more who info')
-    moreWho.style.display = 'inline'
+    if (moreWho.style.display === 'none') {
+      moreWho.style.display = 'inline'
+    } else {
+      moreWho.style.display = 'none'
+    }
     moreWhere.style.display = 'none'
     moreWhat.style.display = 'none'
   }
 
   var showWhere = () => {
-    console.log('more where info')
+    if (moreWhere.style.display === 'none') {
+      moreWhere.style.display = 'inline'
+    } else {
+      moreWhere.style.display = 'none'
+    }
     moreWho.style.display = 'none'
-    moreWhere.style.display = 'inline'
     moreWhat.style.display = 'none'
   }
 
   var showWhat = () => {
-    console.log('more what info')
+    if (moreWhat.style.display === 'none') {
+      moreWhat.style.display = 'inline'
+    } else {
+      moreWhat.style.display = 'none'
+    }
     moreWho.style.display = 'none'
     moreWhere.style.display = 'none'
-    moreWhat.style.display = 'inline'
   }
 
-  whoMore.addEventListener('click', showWho)
-  whereMore.addEventListener('click', showWhere)
-  whatMore.addEventListener('click', showWhat)
+  whoButton.addEventListener('click', showWho)
+  whereButton.addEventListener('click', showWhere)
+  whatButton.addEventListener('click', showWhat)
 }
 
 portfolio()
